@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: gainsboro;
+}
+
+body {
+    background: linear-gradient(#008496, black);
+}
+
+#container {
+    height: fit-content;
+    width: auto;
+}
+
+.fspage {
+    height: 100vh;
+    width: 100vw;
+}
+
+#fstpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #008496, black);
+    color: cornsilk;
+    position: absolute;
+    width: 100vw;
+    height: 50vh;
+    font-size: xx-large;
+}
+
+.submitarea {
+    height: 100vh;
+    width: 100vw;
+}
+
+#topic {
+    display: flex;
+    height: 10vh;
+}
+
+#topicarea {
+    text-align: center;
+    width: 95vw;
+    height: 2.2em;
+    margin: auto;
+    margin-top: 5px;
+    display: block;
+    font-size: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    color: gold;
+    background: linear-gradient(to right, #008496, black);
+}
+
+#description {
+    height: 60vh;
+    display: flex;
+}
+
+#discriptionarea {
+    text-align: center;
+    color: gainsboro;
+    margin: auto;
+    width: 95vw;
+    height: 55vh;
+    background: linear-gradient(to right, #008496, black);
+}
+
+#btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+#submitbtn {
+    background-color: #0d6efd;
+    color: white;
+    width: 30vw;
+    border: none;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+}
+
+.footer {
+    width: 100vw;
+    height: auto;
+    position: absolute;
+    top: 80vh;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+}
+
+.owner {
+    margin-top: 25px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.presavedbtn {
+    background-color: #0d6efd;
+    color: white;
+    width: 35vw;
+    border: none;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+    cursor: pointer;
+    text-align: center;
+    /* z-index: 3; */
+}
+
+#nosaved {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    background: linear-gradient(to right, #008496, black);
+}
+
+#nosaved p {
+    display: block;
+    margin: auto;
+}
+
+.createtopicbtn {
+    display: block;
+    margin: auto;
+    background-color: #0d6efd;
+    color: white;
+    font-family: cursive;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#rembtn {
+    width: auto;
+    padding: 5px;
+    margin: 10px;
+}
+
+#readarea {
+    width: 100vw;
+    height: 100vh;
+}
+
+#cards {
+    height: fit-content;
+}
+
+.card {
+    border: 1px solid black;
+    height: auto;
+    padding: 5px;
+    margin: 100px;
+    overflow: auto;
+}
+
+.topic {
+    font-size: 2em;
+    color: gold;
+}
+
+.removebtn {
+    background-color: #e5e915;
+    color: rgb(32, 28, 28);
+    width: 10vw;
+    border: none;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+}
