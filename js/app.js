@@ -55,7 +55,6 @@ readnotesfn = (n) => {
     document.getElementById("discriptionarea").value = JSON.parse(localStorage.getItem(n)).description
 }
 removebtn = (n) => {
-    console.log("hello")
     localStorage.removeItem(n)
     presavedbtnclicked()
 
